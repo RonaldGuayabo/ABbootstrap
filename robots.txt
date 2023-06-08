@@ -1,0 +1,4 @@
+User-Agent: *
+allow: https://abdentalclinic.com.co/
+
+Sitemap: https://abdentalclinic.com.co/sitemap.xml

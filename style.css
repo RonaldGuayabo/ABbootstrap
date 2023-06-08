@@ -1,0 +1,349 @@
+
+.text-ab {
+    color: #3cb371 !important;
+}
+
+.btn-ab {
+    background-color: #25d366 !important;
+}
+.btn-ab:hover {
+    transform: scale(1.1);
+}
+
+#header img {
+    width: 200px;
+}
+
+#main .carousel-inner img {
+    max-height: 80vh;
+    object-fit: cover;
+    filter: grayscale(20%);
+}
+#carousel {
+    position: relative;
+}
+#carousel .overlay {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+}
+#carousel .overlay .container,
+#carousel .overlay .row {
+    height: 100%;
+}
+
+#porque-nosotros {
+    background-color: black;
+    color: white;
+}
+#porque-nosotros img {
+    width: 300px;
+}
+
+/*Cuadro azul de Horario*/
+.main-container--time .time-open {
+    width: 275px;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 2px;
+    background-color: #a0dbe6;
+    color: black;
+    text-align: center;
+}
+.lugar-consultorio {
+    text-align: center;
+}
+
+/*Card de información de servicios*/
+.main-product-detail {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: #201e1c;
+}
+.logo-AB--AndreaBonilla {
+    position: absolute;
+    width: 59px;
+    height: 45px;
+    top: -16px;
+    left: 41%;
+    background-image: url("./assets/logo/logo_dorado_AB.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-datail--title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+.product-datail--title h2 {
+    margin-bottom: 10px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: white;
+}
+.product-datail--title p {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: rgb(179, 179, 179);
+}
+.product-datail--card {
+    width: 100%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 165px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+.product-datail--card .higiene {
+    display: inline-block;
+    width: 40px;
+    height: 38px;
+    margin-bottom: 10px;
+    background-image: url("./assets/icono/higiene.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product--card-title {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1rem;
+    color: #201e1c;
+}
+.product--card-text {
+    margin-bottom: 5px;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    color: #201e1c;
+}
+.product-datail--card .ortodoncia {
+    display: inline-block;
+    width: 40px;
+    height: 38px;
+    margin-bottom: 10px;
+    background-image: url("./assets/icono/ortodoncia.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-datail--card .endodoncia {
+    display: inline-block;
+    width: 40px;
+    height: 38px;
+    margin-bottom: 10px;
+    background-image: url("./assets/icono/endodoncia.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-datail--card .extracciones {
+    display: inline-block;
+    width: 40px;
+    height: 38px;
+    margin-bottom: 10px;
+    background-image: url("./assets/icono/extracciones.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-datail--card .resinas {
+    display: inline-block;
+    width: 40px;
+    height: 38px;
+    margin-bottom: 10px;
+    background-image: url("./assets/icono/resinas.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-datail--card .protesis-fija {
+    display: inline-block;
+    width: 40px;
+    height: 38px;
+    margin-bottom: 10px;
+    background-image: url("./assets/icono/protesisFija.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-datail--card .protesis-removible {
+    display: inline-block;
+    width: 40px;
+    height: 38px;
+    margin-bottom: 10px;
+    background-image: url("./assets/icono/protesisRemovibles.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* Ultima sección*/
+.img-container {
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url("./assets/img/dental_clinic_coyaima.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ .img-container h2 {
+     padding-top: 40px;
+     font-size: 2.8rem;
+     font-weight: bold;
+     line-height: 2.6rem;
+     color: #201e1c;
+     text-align: center;
+ }
+/*WhatsApp Flotante*/
+.whatsapp {
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 43px;
+    z-index: 100;
+    width: 55px;
+    height: 55px;
+}
+.whatsapp:hover {
+    background-color: #3cb371;
+    color: #fff;
+}
+
+/*WhatsApp Flotante*/
+.whatsapp {
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 35px;
+    z-index: 100;
+    width: 55px;
+    height: 55px;
+}
+.whatsapp:hover {
+    background-color: #3cb371;
+    color: #fff;
+}
+
+/*slider*/
+#galeria {
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.fotos--title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.fotos--title h2 {
+    padding-top: 20px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: black;
+ }
+.fotos--title p {
+    padding-top: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: black;
+}
+.fotos-container--slider {
+    display: flex;
+    height: 380px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+.fotos-container--card {
+    position: relative;
+    margin-bottom: 40px;
+    scroll-snap-align: center;
+}
+.fotos-container--card img {
+    width: 70%;
+    min-width: 230px;
+    max-width: 300px;
+    height: auto;
+    margin: 0px 50px 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(32, 32, 30, 0.8);
+}
+
+
+/*footer*/
+
+#footer {
+    background-color: black;
+    color: white;
+}
+#footer img {
+    width: 250px;
+    height: 55px;
+}
+
+/*iconos de redes sociales*/
+.social-icons a {
+    padding: 15px;
+    color: white;
+    font-size: 2rem;
+}
+.social-icons a:hover {
+    color: white;
+}
+.fa-facebook:before {
+    content: "\f09a";
+}
+.fa-twitter:before {
+    content: "\f099";
+}
+.fa-instagram:before {
+    content: "\f16d";
+}
+.fa-linkedin:before {
+    content: "\f0e1";
+}
+.text-footer p {
+    font-size: .9rem;
+}
+
+.copyRight {
+    color: gray;
+    font-size: 10px;
+}
+.copyRight a {
+    text-decoration: none;
+    color: gray;
+}
